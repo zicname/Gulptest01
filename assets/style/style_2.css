@@ -65,14 +65,12 @@ table {
     margin: 0 auto;
     padding:0 15px;
 }
-/* //header */
-
 .menu{
     /* max-width: 1920px; 代表滿版無需寫*/
     padding: 30px 88px;
 }
 .menu .logo{
-    background: url("/img/logo-new_工作區域/logo-new_工作區域_1.png")center center;
+    background: url("../images/logo-new_work/logo-new_work_1.png")center center;
     background-size: cover;
     display: block;
     width: 80px;
@@ -201,6 +199,12 @@ table {
     
 }
 
+.container{
+    max-width:1140px;
+    margin:0 auto;
+    padding:0 15px;
+}
+
 .footer a:hover{
     color: black;
 
@@ -222,13 +226,13 @@ table {
 }
 
 .footer-contact-a:before{
-    background: url(/img/week3/icon-phone.svg)center center no-repeat;
+    background: url(../images/week3/icon-phone.svg)center center no-repeat;
     background-size: contain;
     
     
 }
 .footer-contact-b:before{
-    background: url(/img/week3/icon-mail.svg)center center no-repeat;
+    background: url(../images/week3/icon-mail.svg)center center no-repeat;
     background-size: contain;
     
 }
