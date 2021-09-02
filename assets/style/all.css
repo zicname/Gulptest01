@@ -1,6 +1,115 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.text-primary {
+  color: #AA0601; }
+
+.text-secondary {
+  color: #650300; }
+
+.text-dark {
+  color: #000000; }
+
+.text-light {
+  color: #FFFFFF; }
+
+.sample-color-primary {
+  color: #B75929; }
+
+.sample-color-secondary {
+  color: #5F3E2D; }
+
+.bg-primary {
+  background: #AA0601; }
+
+.bg-light {
+  background-color: #FBF2F2; }
+
+.text-center {
+  text-align: center; }
+
+body {
+  line-height: 1.5;
+  font-family: 'Noto Sans', sans-serif; }
+
+.font-Eng {
+  font-family: 'Roboto', sans-serif; }
+
+.font-bold {
+  font-weight: 700; }
+
+.text-title-xs {
+  font-size: 20px;
+  font-weight: 400; }
+
+.text-title-s {
+  font-size: 48px;
+  font-weight: 700; }
+
+.text-title-m {
+  font-size: 64px;
+  font-weight: 700; }
+
+.text-title-lg {
+  font-size: 72px;
+  font-weight: 700; }
+
+.text-subtitle {
+  font-size: 24px;
+  font-weight: 700; }
+
+.text-subtitle-lg {
+  font-size: 36px;
+  font-weight: 400; }
+
+.font-m {
+  font-size: 20px; }
+
+.font-sm {
+  font-size: 16px; }
+
+.font-extra-sm {
+  font-size: 14px; }
+
+.mb-1 {
+  margin-bottom: 8px; }
+
+.mb-2 {
+  margin-bottom: 16px; }
+
+.mb-3 {
+  margin-bottom: 24px; }
+
+.mb-3-s {
+  margin-bottom: 20px; }
+
+.mb-4 {
+  margin-bottom: 32px; }
+
+.mb-4-m {
+  margin-bottom: 36px; }
+
+.mb-5 {
+  margin-bottom: 40px; }
+
+.mb-6 {
+  margin-bottom: 48px; }
+
+.mb-7-s {
+  margin-bottom: 52px; }
+
+.mr-4-s {
+  margin-right: 30px; }
+
+.mr-4 {
+  margin-right: 32px; }
+
+.mr-6 {
+  margin-right: 48px; }
+
+.mr-8 {
+  margin-right: 64px; }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
