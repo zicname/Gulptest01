@@ -290,6 +290,11 @@ table {
   padding-top: 44px;
   padding-bottom: 39px; }
 
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
 .footer a:hover {
   color: black; }
 
