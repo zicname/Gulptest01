@@ -161,6 +161,7 @@ table {
   height: auto; }
 
 .menu {
+  height: 108px;
   padding: 30px 88px;
   background: url("../images/logo-new_work/logo-new_work_1.png") center center;
   background-size: cover;
