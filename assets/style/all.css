@@ -166,7 +166,7 @@ table {
   padding: 30px 88px; }
 
 .menu .logo {
-  background: url("/img/logo-new_工作區域/logo-new_工作區域_1.png") center center;
+  background: url("/images/logo-new_工作區域/logo-new_工作區域_1.png") center center;
   background-size: cover;
   display: block;
   width: 80px;
@@ -315,11 +315,11 @@ table {
   margin-right: 22px; }
 
 .footer-contact-a:before {
-  background: url(/img/week3/icon-phone.svg) center center no-repeat;
+  background: url(/images/week3/icon-phone.svg) center center no-repeat;
   background-size: contain; }
 
 .footer-contact-b:before {
-  background: url(/img/week3/icon-mail.svg) center center no-repeat;
+  background: url(/images/week3/icon-mail.svg) center center no-repeat;
   background-size: contain; }
 
 .nav, .social, .policy-list {
