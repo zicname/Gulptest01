@@ -293,6 +293,11 @@ table {
         -ms-flex-pack: center;
             justify-content: center; } }
 
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
 .footer {
   padding-top: 44px;
   padding-bottom: 39px; }
