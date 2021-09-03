@@ -641,6 +641,7 @@ table {
     margin: 0 30px; }
     @media (max-width: 414px) {
       .product p {
+        margin: 0 0 0 30px;
         position: absolute; } }
   .product li:nth-child(2) {
     -webkit-box-orient: horizontal;
