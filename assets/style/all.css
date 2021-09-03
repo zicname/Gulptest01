@@ -426,4 +426,165 @@ table {
   .break {
     margin-top: 44px; } }
 
+.banner {
+  background: url(../images/week3/banner.png) center center;
+  background-size: cover;
+  height: 840px;
+  /* max-width: 1920px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 20%; }
+  .banner h2 {
+    text-align: end; }
+  @media (max-width: 768px) {
+    .banner {
+      max-width: 100%; }
+      .banner h2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end; }
+      .banner .text-subtitle-lg {
+        font-size: 20px; }
+      .banner .text-title-m {
+        font-size: 48px; } }
+  @media (max-width: 414px) {
+    .banner {
+      max-width: 414px;
+      height: 394px; }
+      .banner .text-subtitle-lg {
+        font-size: 16px; }
+      .banner .text-title-m {
+        font-size: 32px; } }
+
+@media (max-width: 768px) {
+  .j-flex-end {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .pd-right-s {
+    padding-right: 5%; } }
+
+.highlight {
+  padding-top: 60px;
+  padding-bottom: 80px; }
+  @media (max-width: 768px) {
+    .highlight {
+      padding-top: 40px;
+      padding-bottom: 56px; }
+      .highlight h2 {
+        font-size: 32px; } }
+  @media (max-width: 414px) {
+    .highlight {
+      padding-top: 32px;
+      padding-bottom: 40px; }
+      .highlight h2 {
+        font-size: 24px; }
+      .highlight .highlight-list li {
+        width: 73%;
+        margin-right: 0; } }
+
+.highlight-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .highlight-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 25%;
+    margin-right: 30px; }
+  .highlight-list li:nth-child(4) {
+    margin-right: 0; }
+  @media (max-width: 768px) {
+    .highlight-list {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .highlight-list li {
+        width: 36%; }
+      .highlight-list li:nth-child(2n) {
+        margin-right: 0; }
+      .highlight-list li:nth-child(2n+1) {
+        margin-right: 15%; } }
+
+.icon-size {
+  height: 83.33px;
+  background-size: contain;
+  margin: 8.33px;
+  background-repeat: no-repeat; }
+
+.clock-icon {
+  background: url(../images/week3/icon-clock.svg) center center;
+  height: 83.33px;
+  width: 83.33px;
+  background-size: contain;
+  margin: 8.33px;
+  background-repeat: no-repeat; }
+
+.money-icon {
+  background: url(../images/week3/icon-dollar.svg) center center;
+  height: 83.33px;
+  width: 83.33px;
+  background-size: contain;
+  margin: 8.33px;
+  background-repeat: no-repeat; }
+
+.heart-icon {
+  background: url(../images/week3/icon-heart.svg) center center;
+  height: 83.33px;
+  width: 83.33px;
+  background-size: contain;
+  margin: 8.33px;
+  background-repeat: no-repeat; }
+
+.glasses-icon {
+  background: url(../images/week3/icon-glasses.svg) center center;
+  height: 83.33px;
+  width: 100px;
+  background-size: contain;
+  margin: 8.33px;
+  background-repeat: no-repeat; }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+    padding: 0 15px;
+    margin: 0 auto; } }
+
+@media (max-width: 414px) {
+  .container {
+    max-width: 414px;
+    margin: 0 auto;
+    padding: 0 15px; } }
+
 /*# sourceMappingURL=all.css.map */
