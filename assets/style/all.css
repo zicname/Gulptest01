@@ -685,19 +685,19 @@ table {
 
 .product-icon-1 {
   display: inline-block;
-  background: url(/img/week3/auto_awesome_red_24dp.svg) center center;
+  background: url(../images/week3/auto_awesome_red_24dp.svg) center center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .product-icon-2 {
   display: inline-block;
-  background: url(/img/week3/icon-sun-black.svg) center center;
+  background: url(../images/week3/icon-sun-black.svg) center center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .product-icon-3 {
   display: inline-block;
-  background: url(/img/week3/flash_on_black_24dp.svg) center center;
+  background: url(../images/week3/flash_on_black_24dp.svg) center center;
   background-repeat: no-repeat;
   background-size: contain; }
 
