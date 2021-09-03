@@ -984,8 +984,7 @@ table {
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
-    
-    
+ 
 }
 /* //recommendation-Pad */
 @media(max-width:768px){
