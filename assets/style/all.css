@@ -11,10 +11,10 @@
 .text-light {
   color: #FFFFFF; }
 
-.sample-color-primary {
+.sample-primary {
   color: #B75929; }
 
-.sample-color-secondary {
+.sample-secondary {
   color: #5F3E2D; }
 
 .bg-primary {
@@ -23,9 +23,6 @@
 .bg-light {
   background-color: #FBF2F2; }
 
-.text-center {
-  text-align: center; }
-
 body {
   line-height: 1.5;
   font-family: 'Noto Sans', sans-serif; }
@@ -33,11 +30,31 @@ body {
 .font-Eng {
   font-family: 'Roboto', sans-serif; }
 
+.text-center {
+  text-align: center; }
+
 .font-bold {
   font-weight: 700; }
 
+.font-extra-sm {
+  font-size: 14px; }
+
+.font-sm {
+  font-size: 16px; }
+
+.font-m {
+  font-size: 20px; }
+
 .text-title-xs {
   font-size: 20px;
+  font-weight: 400; }
+
+.text-subtitle {
+  font-size: 24px;
+  font-weight: 700; }
+
+.text-subtitle-lg {
+  font-size: 36px;
   font-weight: 400; }
 
 .text-title-s {
@@ -52,34 +69,17 @@ body {
   font-size: 72px;
   font-weight: 700; }
 
-.text-subtitle {
-  font-size: 24px;
-  font-weight: 700; }
-
-.text-subtitle-lg {
-  font-size: 36px;
-  font-weight: 400; }
-
-.font-m {
-  font-size: 20px; }
-
-.font-sm {
-  font-size: 16px; }
-
-.font-extra-sm {
-  font-size: 14px; }
-
 .mb-1 {
   margin-bottom: 8px; }
 
 .mb-2 {
   margin-bottom: 16px; }
 
-.mb-3 {
-  margin-bottom: 24px; }
-
 .mb-3-s {
   margin-bottom: 20px; }
+
+.mb-3 {
+  margin-bottom: 24px; }
 
 .mb-4 {
   margin-bottom: 32px; }
