@@ -1,0 +1,193 @@
+//footer
+
+.container{
+    max-width:1140px;
+    margin:0 auto;
+    padding:0 15px;
+}
+.footer{
+    padding-top: 44px;
+    padding-bottom: 39px;
+
+    @include mobile(){
+        position: relative;
+        padding-top: 25px;
+        padding-bottom: 95px;
+    }
+
+    a:hover{
+        color: black;
+    }
+
+    &-nav
+    {
+        display: flex;
+        justify-content: space-between;
+
+        @include mobile(){
+            justify-content: flex-end;
+        }
+
+    }
+    &-contact{
+        @include mobile(){
+            position: absolute;
+            top:0px;
+
+        }
+
+    }
+    &-contact a{
+        @include mobile(){
+
+            font-size: 16px;
+            margin-bottom: 6px;
+        }
+    }
+
+    &-contact a:nth-last-child(1){
+        @include mobile(){
+            
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+    }
+
+
+    &-contact a:before{
+        content:"";
+        display: inline-block;
+        height: 36px;
+        width: 36px;
+        vertical-align: middle;
+        margin-right: 22px;
+
+        @include mobile(){
+            height: 15px;
+            width: 15px;
+            margin-right: 6px;
+
+        }
+        
+    }
+
+    &-contact-a:before{
+        background: url(../images/week3/icon-phone.svg)center center no-repeat;
+        background-size: contain;
+        
+    }
+
+    &-contact-b:before{
+        background: url(../images/week3/icon-mail.svg)center center no-repeat;
+        background-size: contain;
+        
+    }
+    @include pad(){
+        max-width:100%
+    }
+
+}
+.policy{
+    display: flex;
+    justify-content: space-between;
+    
+    &-list{
+        display: flex;
+    }
+    @include mobile(){
+        position:absolute;
+        top:50px;
+
+        margin-top: 40px;
+        flex-direction: column;
+        margin-bottom: 8px;
+
+        &-list{
+            flex-direction: column;
+
+        }
+
+        &-list li:nth-last-child(1){
+            margin-bottom: 0px;
+        }
+
+    }
+}
+
+
+.font-sm{
+    @include mobile(){
+        margin-bottom: 8px;
+    }
+}
+
+.nav{
+    display: flex;
+
+    &-list{
+        display: inline-block;
+    }
+
+    @include pad(){
+        li{
+            margin-right: 40px;
+        }
+        a{
+            margin-right: 0;
+        }
+    }
+    @include mobile(){
+        display: none;
+    }
+}
+.social{
+    display: flex;
+    li:hover{
+        display: inline-block;
+        transform:scale(1.2,1.2);
+        transition: 0.3s;
+    }
+
+    @include pad(){
+
+        img{
+            width: 24px;
+            height: 24px;
+            margin-right: 24px;
+
+            [alt=Line]{
+ 
+                margin-right: 0px; 
+        
+            }
+        }
+    }
+
+}
+
+.d-block{
+    display: block;
+}
+
+@include pad(){
+
+    .container{
+        max-width:720px;
+        padding:0 15px;
+        margin:0 auto;
+
+        h2{
+            margin-bottom: 32px;
+        }
+ 
+    }
+}
+@include mobile(){
+    .container{
+    position: relative;
+    }
+    .break{
+
+        margin-top: 44px;
+    }
+}

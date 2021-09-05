@@ -1,23 +1,15 @@
-$color: #00cc99;
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
+//fonts links
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+//regular scss files
+@import 'abstracts/variable';
+@import 'abstracts/reset';
+@import 'abstracts/mixin';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+
+
