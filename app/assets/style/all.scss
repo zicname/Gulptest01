@@ -1,12 +1,12 @@
 
 //fonts links
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-
 //regular scss files
 @import 'abstracts/variable';
 @import 'abstracts/reset';
 @import 'abstracts/mixin';
+@import 'abstracts/base';
+@import 'abstracts/utilities';
 
 @import 'layout/header';
 @import 'layout/footer';
